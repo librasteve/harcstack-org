@@ -8,8 +8,6 @@ Code for the harcstack.org website.
 
 ## Local Installation
 
-Install raku - eg. from [rakubrew](https://rakubrew.org), then:
-
 ### Install Air, Cro & Red
 - `zef install --/test cro`
 - `zef install Air`
