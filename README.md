@@ -6,7 +6,7 @@ Please raise an Issue if you would like to feedback or assist.
 
 Code for the harcstack.org website.
 
-# Local
+## Local Installation
 
 Install raku - eg. from [rakubrew](https://rakubrew.org), then:
 
@@ -32,7 +32,7 @@ You will also need a SASS compiler such as Dart.
 
 ---
 
-# Server Installation
+## Server Installation
 
 [no dart!]
 
