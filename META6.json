@@ -6,8 +6,10 @@
   "build-depends": [
   ],
   "depends": [
+    "Air",
+    "Air::Plugin::Hilite"
   ],
-  "description": "blah blah blah",
+  "description": "harcstack.org website",
   "license": "Artistic-2.0",
   "name": "Harcstack",
   "perl": "6.d",
@@ -16,7 +18,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/librasteve/Harcstack.git",
   "tags": [
   ],
   "test-depends": [
