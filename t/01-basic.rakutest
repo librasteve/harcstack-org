@@ -1,0 +1,6 @@
+use Test;
+use Harcstack;
+
+pass "replace me";
+
+done-testing;
