@@ -8,11 +8,12 @@ Code for the harcstack.org website.
 
 ## Local Installation
 
-### Install Air, Cro & Red
-- `zef install --/test cro`
-- `zef install Air`
+### Install Cro & Air, Cro
+- `zef install --/test cro Air`
 
-If this is your first Raku installation, you may need some native libraries (e.g. for UUID for Red), please check the module specific documentation and issues.
+If this is your first Raku installation, you may need some native libraries (e.g. for UUID, SSL), please check the module specific documentation and issues.
+
+Red is not currently used by this website.
 
 You will also need a SASS compiler such as Dart.
 
@@ -21,8 +22,7 @@ You will also need a SASS compiler such as Dart.
 - `cd Harcstack`
 
 ### Set ENV vars for host and port
-- `export CRO_WEBSITE_HOST="0.0.0.0"`
-- `export CRO_WEBSITE_PORT="4000"`
+- `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="4000"`
 
 ### Run and view it
 - `raku -I. service.raku`
