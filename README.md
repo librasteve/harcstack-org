@@ -23,11 +23,11 @@ You will also need a SASS compiler such as Dart.
 - `cd Harcstack`
 
 ### Set ENV vars for host and port
-- `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="4000"`
+- `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="3000"`
 
 ### Run and view it
 - `raku -I. service.raku`
-- Open a browser and go to `http://localhost:4000`
+- Open a browser and go to `http://localhost:3000`
 
 ---
 
