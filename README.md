@@ -11,7 +11,7 @@ Code for the harcstack.org website.
 ### Install Cro & Air, Cro
 - `zef install --/test cro Air`
 
-If this is your first Raku installation, you may need some native libraries (e.g. for UUID, SSL), please check the module specific documentation and issues.
+If this is your first Raku installation, you may need some native libraries for dependencies (e.g. for UUID, SSL), please check the module specific documentation for help.
 
 Red is not currently used by this website.
 
