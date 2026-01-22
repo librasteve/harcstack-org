@@ -19,7 +19,7 @@ Red is not currently used by this website.
 You will also need a SASS compiler such as Dart.
 
 ### Git clone this repo
-- `git clone https://github.com/librasteve/Harcstack.git`
+- `git clone https://github.com/librasteve/Harcstack-org.git`
 - `cd Harcstack`
 
 ### Set ENV vars for host and port
