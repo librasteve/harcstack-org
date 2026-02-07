@@ -36,7 +36,7 @@ my @tools = [Analytics.new: :provider(Umami), :key<35777f61-5123-4bb8-afb1-aced4
 
 sub SITE is export {
 
-    site :theme-color<azure>, :bold-color<maroon>, :@tools, :register[Air::Plugin::Hilite.new],
+    site :theme-color<azure>, :bold-color<maroon>, :@tools, :register[Air::Plugin::Hilite.new, LightDark.new],
         index
         main [
             div [
