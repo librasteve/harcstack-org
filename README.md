@@ -20,7 +20,7 @@ You will also need a SASS compiler such as Dart.
 
 ### Git clone this repo
 - `git clone https://github.com/librasteve/Harcstack-org.git`
-- `cd Harcstack`
+- `cd Harcstack-org`
 
 ### Set ENV vars for host and port
 - `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="3000"`
