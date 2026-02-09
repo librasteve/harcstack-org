@@ -1,3 +1,5 @@
+unit module Harcstack;
+
 use Air::Functional :BASE;
 use Air::Base;
 use Air::Component;
@@ -10,7 +12,7 @@ my $cro  = external :href<https://cro.raku.org>;
 my $raku = external :href<https://raku.org>;
 my $talk = external :href<https://discord.gg/VzYpdQ6>;
 
-my &index = &page.assuming( #:REFRESH(15),
+my &index = &page.assuming( :REFRESH(10),
     title => 'hÅrc',
     description => 'HTMX, Air, Red, Cro',
 
@@ -33,9 +35,7 @@ my &index = &page.assuming( #:REFRESH(15),
 
 my @tools = [Analytics.new: :provider(Umami), :key<35777f61-5123-4bb8-afb1-aced487af36e>,];
 
-
-sub SITE is export {
-
+our $site =
     site :theme-color<azure>, :bold-color<maroon>, :@tools, :register[Air::Plugin::Hilite.new, LightDark.new],
         index
         main [
@@ -48,7 +48,7 @@ sub SITE is export {
                 markdown main-txt;
             ];
         ];
-}
+;
 
 sub example-code {
     q:to/END/;

@@ -26,7 +26,7 @@ You will also need a SASS compiler such as Dart.
 - `export CRO_WEBSITE_HOST="0.0.0.0" && export CRO_WEBSITE_PORT="3000"`
 
 ### Run and view it
-- `raku -I. service.raku`
+- `raku -I. air-serve.raku`
 - Open a browser and go to `http://localhost:3000`
 
 ---
