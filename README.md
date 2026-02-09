@@ -58,8 +58,6 @@ sudo docker-compose down
 
 The following improvements are planned:
 - add cron job & script to have the server poll for new releases (and to download and restart)
-- adjust the Dockerfile RUN CMD to use site.launch
-- bring over to Air::Examples
 
 ---
 
