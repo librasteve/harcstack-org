@@ -50,8 +50,10 @@ Point your domain name to this IP address (ie. match the Caddyfile).
 Then go:
 
 ```
-sudo docker-compose up -d --pull always
-sudo docker-compose down
+[sudo docker-compose down]
+[sudo docker-compose pull]
+sudo docker-compose up -d
+
 ```
 
 ## Roadmap
