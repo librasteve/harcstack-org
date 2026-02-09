@@ -58,6 +58,7 @@ sudo docker-compose down
 
 The following improvements are planned:
 - add cron job & script to have the server poll for new releases (and to download and restart)
+- adjust Caddy files for multiple web servers in parallel on same server
 
 ---
 
