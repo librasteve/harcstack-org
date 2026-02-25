@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
 use Harcstack;
 
-$Harcstack::site.start;
+sub MAIN( :$host, :$port, :$scss, :$watch ) {
+    $Harcstack::site.start:
+          :$host, :$port, :$scss, :$watch;
+}

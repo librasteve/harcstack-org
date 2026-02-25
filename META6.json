@@ -1,27 +1,19 @@
 {
-  "auth": "zef:librasteve",
-  "authors": [
-    "librasteve"
-  ],
-  "build-depends": [
-  ],
-  "depends": [
-    "Air",
-    "Air::Plugin::Hilite"
-  ],
-  "description": "harcstack.org website",
-  "license": "Artistic-2.0",
-  "name": "Harcstack",
-  "perl": "6.d",
-  "provides": {
-    "Harcstack": "lib/Harcstack.rakumod"
-  },
-  "resources": [
-  ],
-  "source-url": "https://github.com/librasteve/Harcstack.git",
-  "tags": [
-  ],
-  "test-depends": [
-  ],
-  "version": "0.0.1"
+    "name": "Harcstack",
+    "description": "harcstack.org website",
+    "version": "0.0.1",
+    "authors": [
+        "librasteve"
+    ],
+    "auth": "zef:librasteve",
+    "depends": [
+        "Air",
+        "Air::Plugin::Hilite"
+    ],
+    "build-depends": [],
+    "provides": {
+        "Harcstack": "lib/Harcstack.rakumod"
+    },
+    "license": "Artistic-2.0",
+    "source-url": "https://github.com/librasteve/Harcstack.git"
 }
