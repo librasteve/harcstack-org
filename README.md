@@ -52,6 +52,8 @@ Then go:
 sudo docker-compose up -d
 ```
 
+Note: each time you commit to main, the CI script builds a new Docker image and pushes it to [quay.io/librasteve/harcstack-org](https://quay.io/repository/librasteve/harcstack-org) - you may wish to prune older versions from time to time.
+
 ## Roadmap
 
 The following improvements are planned:
